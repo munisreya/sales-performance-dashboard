@@ -6,7 +6,7 @@ An end-to-end data analysis project analyzing 9,977 retail transactions to uncov
 ## Tech Stack
 - **Python (Pandas):** Data cleaning and feature engineering.
 - **SQL (SQLite):** Business analysis queries (aggregations, CTEs, CASE statements).
-- **Power BI:** Interactive dashboard development with slicers.
+- **Streamlit & Plotly:** Interactive Python web application and data visualization.
 
 ## Key Business Insights
 1. **Discounts Destroy Profit:** Orders with a 0% discount generate 76.1% of total profit. Orders with discounts above 20% result in a net loss.
@@ -15,6 +15,8 @@ An end-to-end data analysis project analyzing 9,977 retail transactions to uncov
 
 ## Dashboard Preview
 ![Sales Dashboard](screenshots/dashboard.png)
+
+🔗 **[Click here to view the live interactive dashboard!](https://sales-performance-dashboard-s5idtngw9cdnawizten8s6.streamlit.app)**
 
 ## Business Recommendations
 1. **Cap Discounts at 15%:** Implement a strict policy to prevent discounts above 15%, as they consistently lead to negative profit margins.
